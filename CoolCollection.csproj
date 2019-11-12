@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{11381A61-A5BD-44E0-87C6-2A4F920CECD8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoolCollection</RootNamespace>
+    <AssemblyName>CoolCollection</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AdminMaster.Master" />
+    <Content Include="Default.aspx" />
+    <Content Include="PNG\download.png" />
+    <Content Include="PNG\empty_cart.jpeg" />
+    <Content Include="PNG\Happy.jpg" />
+    <Content Include="PNG\images.png" />
+    <Content Include="PNG\star.jpg" />
+    <Content Include="PNG\WebSite3.zip" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AddEditCategory.aspx" />
+    <Content Include="Admin\AddNewProducts.aspx" />
+    <Content Include="Admin\Login.aspx" />
+    <Content Include="PNG\1.jpg" />
+    <Content Include="PNG\10.jpg" />
+    <Content Include="PNG\11.jpg" />
+    <Content Include="PNG\11600348-1904533559685151.jpg" />
+    <Content Include="PNG\12.jpg" />
+    <Content Include="PNG\13.jpg" />
+    <Content Include="PNG\2.jpg" />
+    <Content Include="PNG\3.jpg" />
+    <Content Include="PNG\4.jpg" />
+    <Content Include="PNG\5.jpg" />
+    <Content Include="PNG\8.jpg" />
+    <Content Include="PNG\afraid.jpg" />
+    <Content Include="PNG\album.jpg" />
+    <Content Include="PNG\avatar.png" />
+    <Content Include="PNG\b2.jpg" />
+    <Content Include="PNG\bank.jpg" />
+    <Content Include="PNG\beauty-and-beast-chip-mug.png" />
+    <Content Include="PNG\beauty-and-the-beast-chip-mug_26841.jpg" />
+    <Content Include="PNG\book-light.png" />
+    <Content Include="PNG\book-light_29177.jpg" />
+    <Content Include="PNG\book.jpg" />
+    <Content Include="PNG\bottle-string-light_28388.jpg" />
+    <Content Include="PNG\bottle.jpg" />
+    <Content Include="PNG\bulletproof-whisky-glass.png" />
+    <Content Include="PNG\candle.jpg" />
+    <Content Include="PNG\chaos.jpg" />
+    <Content Include="PNG\chemistry.jpg" />
+    <Content Include="PNG\choper.jpg" />
+    <Content Include="PNG\cocktail.jpg" />
+    <Content Include="PNG\coffee.jpg" />
+    <Content Include="PNG\contigo-autoseal-travel-mug.png" />
+    <Content Include="PNG\crying.jpg" />
+    <Content Include="PNG\cushion.jpg" />
+    <Content Include="PNG\decoration.jpg" />
+    <Content Include="PNG\dino.jpg" />
+    <Content Include="PNG\dinosaur.jpg" />
+    <Content Include="PNG\diplodocus-dinosaur-lamp_28260.jpg" />
+    <Content Include="PNG\donut-mug.png" />
+    <Content Include="PNG\donut.jpg" />
+    <Content Include="PNG\emoji-rings-peace-large.png" />
+    <Content Include="PNG\emoji.jpg" />
+    <Content Include="PNG\freshner.jpg" />
+    <Content Include="PNG\fruit-cool-bags.png" />
+    <Content Include="PNG\glitter.jpg" />
+    <Content Include="PNG\Globe.jpg" />
+    <Content Include="PNG\golf-ball-finding-glasses.png" />
+    <Content Include="PNG\grummy.jpg" />
+    <Content Include="PNG\happy-cat-heat-changing-mug.png" />
+    <Content Include="PNG\hhh.jpg" />
+    <Content Include="PNG\home.jpg" />
+    <Content Include="PNG\icecream.jpg" />
+    <Content Include="PNG\ikettle-3rd-gen_28251.jpg" />
+    <Content Include="PNG\jjjj.jpg" />
+    <Content Include="PNG\kokiri.jpg" />
+    <Content Include="PNG\kylo-ren-light-up-chop-sabers.png" />
+    <Content Include="PNG\kylo-ren-light-up-chop-sabers_29262.jpg" />
+    <Content Include="PNG\lamp.jpg" />
+    <Content Include="PNG\legless-bottle-opener.png" />
+    <Content Include="PNG\light.jpg" />
+    <Content Include="PNG\lucky.jpg" />
+    <Content Include="PNG\mermaid-blanket.png" />
+    <Content Include="PNG\mini-karaoke-microphone.png" />
+    <Content Include="PNG\moon.jpg" />
+    <Content Include="PNG\movies.jpg" />
+    <Content Include="PNG\My-Neighbour_Slippers.png" />
+    <Content Include="PNG\mystrery-giftbox.png" />
+    <Content Include="PNG\nightmare_27178.jpg" />
+    <Content Include="PNG\ooo.jpg" />
+    <Content Include="PNG\pablo.jpg" />
+    <Content Include="PNG\pac-man-lamp.png" />
+    <Content Include="PNG\pac.jpg" />
+    <Content Include="PNG\pacman.jpg" />
+    <Content Include="PNG\panda.jpg" />
+    <Content Include="PNG\pearl.jpg" />
+    <Content Include="PNG\peropon.jpg" />
+    <Content Include="PNG\pizza.jpg" />
+    <Content Include="PNG\plant.jpg" />
+    <Content Include="PNG\plantosaurus.png" />
+    <Content Include="PNG\pppp.jpg" />
+    <Content Include="PNG\puffer.jpg" />
+    <Content Include="PNG\qqq.png" />
+    <Content Include="PNG\rainbow-bluetooth-speaker_29212.jpg" />
+    <Content Include="PNG\rainbow.jpg" />
+    <Content Include="PNG\ramen.jpg" />
+    <Content Include="PNG\redrum_27005.jpg" />
+    <Content Include="PNG\rhino-shield-for-iphone.png" />
+    <Content Include="PNG\sandford-theres-a-storm-coming_27801.jpg" />
+    <Content Include="PNG\sandford.jpg" />
+    <Content Include="PNG\saurus.jpg" />
+    <Content Include="PNG\shake.jpg" />
+    <Content Include="PNG\sleepy.jpg" />
+    <Content Include="PNG\Snow.jpg" />
+    <Content Include="PNG\speaker.jpg" />
+    <Content Include="PNG\string.jpg" />
+    <Content Include="PNG\summer.jpg" />
+    <Content Include="PNG\summerisle-the-next-harvest-will-not-fail_28036.jpg" />
+    <Content Include="PNG\teainfuser.jpg" />
+    <Content Include="PNG\teaport.jpg" />
+    <Content Include="PNG\the-upside-down-snow-globe.png" />
+    <Content Include="PNG\tinder-nightmares.png" />
+    <Content Include="PNG\tool.jpg" />
+    <Content Include="PNG\triceratops-dinosaur-lamp.png" />
+    <Content Include="PNG\uni.jpg" />
+    <Content Include="PNG\Unicon-Tears-Gin-Liqueur.png" />
+    <Content Include="PNG\unicorn-charger_29811.jpg" />
+    <Content Include="PNG\unicorn.jpg" />
+    <Content Include="PNG\walking.jpg" />
+    <Content Include="PNG\water.jpg" />
+    <Content Include="PNG\watermelon-power-bank.png" />
+    <Content Include="PNG\Whistle-ker-finder.png" />
+    <Content Include="PNG\wonder.jpg" />
+    <Content Include="PNG\zippo-mini-handwarmer.png" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\AddEditCategory.aspx.cs">
+      <DependentUpon>AddEditCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddEditCategory.aspx.designer.cs">
+      <DependentUpon>AddEditCategory.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AddNewProducts.aspx.cs">
+      <DependentUpon>AddNewProducts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AddNewProducts.aspx.designer.cs">
+      <DependentUpon>AddNewProducts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminMaster.Master.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminMaster.Master.designer.cs">
+      <DependentUpon>AdminMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BusinessLayer\ShoppingCart.cs" />
+    <Compile Include="DataLayer\DataAccess.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50405</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50405/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
